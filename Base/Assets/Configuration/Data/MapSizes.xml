@@ -1,0 +1,28 @@
+<GameInfo>
+	<MapSizes>
+		<Replace 
+			MapSizeType="MAPSIZE_CI_DUEL" Name="Duel - City Islands" Description="32 Islands."
+			MinPlayers="1" MaxPlayers="4" DefaultPlayers="2" MinCityStates="0" MaxCityStates="4" DefaultCityStates="2" SortIndex="10" />
+		<Replace 
+			MapSizeType="MAPSIZE_CI_TINY" Name="Tiny - City Islands" Description="45 Islands."
+			MinPlayers="1" MaxPlayers="8" DefaultPlayers="4" MinCityStates="0" MaxCityStates="9" DefaultCityStates="4" SortIndex="20" />
+		<Replace 
+			MapSizeType="MAPSIZE_CI_SMALL" Name="Small - City Islands" Description="60 Islands."
+			MinPlayers="1" MaxPlayers="12" DefaultPlayers="6" MinCityStates="0" MaxCityStates="13" DefaultCityStates="6" SortIndex="30" />
+		<Replace 
+			MapSizeType="MAPSIZE_CI_STANDARD" Name="Standard - City Islands" Description="77 Islands."
+			MinPlayers="1" MaxPlayers="16" DefaultPlayers="8" MinCityStates="0" MaxCityStates="18" DefaultCityStates="9" SortIndex="40" />
+		<Replace
+			MapSizeType="MAPSIZE_CI_LARGE" Name="Large - City Islands" Description="96 Islands."
+			MinPlayers="1" MaxPlayers="20" DefaultPlayers="10" MinCityStates="0" MaxCityStates="22" DefaultCityStates="11" SortIndex="50" />
+		<Replace
+			MapSizeType="MAPSIZE_CI_HUGE" Name="Huge - City Islands" Description="117 Islands."
+			MinPlayers="1" MaxPlayers="24" DefaultPlayers="12" MinCityStates="0" MaxCityStates="27" DefaultCityStates="13" SortIndex="60" />
+		<Replace
+			MapSizeType="MAPSIZE_CI_ENORMOUS" Name="Enormous - City Islands" Description="140 Islands."
+			MinPlayers="1" MaxPlayers="28" DefaultPlayers="14" MinCityStates="0" MaxCityStates="31" DefaultCityStates="15" SortIndex="70" />
+		<Replace
+			MapSizeType="MAPSIZE_CI_GARGANTUAN" Name="Gargantuan - City Islands" Description="192 Islands."
+			MinPlayers="1" MaxPlayers="32" DefaultPlayers="16" MinCityStates="0" MaxCityStates="36" DefaultCityStates="18" SortIndex="80" />
+	</MapSizes>
+</GameInfo>

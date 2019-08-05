@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="16BA6568-EBEE-48D6-81E0-964F444C4285" version="2">
+	<Properties>
+		<Name>City Islands 2</Name>
+		<Description>Map script which generates a series of islands, the radius of each matching
+the default maximum workable tile radius of a single city.</Description>
+		<Teaser>City Friendly Islands</Teaser>
+		<Authors>Geoclasm</Authors>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	<FrontEndActions>
+		<UpdateDatabase id="NewAction">
+			<File>Config.xml</File>
+			<File>Base/Assets/Configuration/Data/MapSizes.xml</File>
+		</UpdateDatabase>
+	</FrontEndActions>
+	<InGameActions>
+		<ImportFiles id="MapScript">
+			<File>Base/Assets/Maps/City_Islands.lua</File>
+		</ImportFiles>
+		<UpdateDatabase id="Database">
+			<!--<File>Base/Assets/Gameplay/Data/CI_Technologies.xml</File>-->
+			<File>Base/Assets/Gameplay/Data/CI_Technologies.sql</File>
+			<File>Base/Assets/Gameplay/Data/Maps.xml</File>
+		</UpdateDatabase>
+		<UpdateIcons Id="Icons">
+			<File>Base/Assets/UI/Icons/CI_Icons_Tech.xml</File>
+		</UpdateIcons>
+		<UpdateText Id="Text">
+			<File>Base/Assets/Text/en_US/CI_Quotes_Text.xml</File>
+			<File>Base/Assets/Text/en_US/CI_Technologies_Text.xml</File>
+			<File>Base/Assets/Text/en_US/CI_Types_Text.xml</File>
+		</UpdateText>
+	</InGameActions>
+	<Files>
+		<File>Config.xml</File>
+		<File>Base/Assets/Configuration/Data/MapSizes.xml</File>
+		<File>Base/Assets/Gameplay/Data/CI_Technologies.xml</File>
+		<File>Base/Assets/Gameplay/Data/CI_Technologies.sql</File>
+		<File>Base/Assets/Gameplay/Data/Maps.xml</File>
+		<File>Base/Assets/Maps/City_Islands.lua</File>
+		<File>Base/Assets/Text/en_US/CI_Quotes_Text.xml</File>
+		<File>Base/Assets/Text/en_US/CI_Technologies_Text.xml</File>
+		<File>Base/Assets/Text/en_US/CI_Types_Text.xml</File>
+		<File>Base/Assets/UI/Icons/CI_Icons_Tech.xml</File>
+	</Files>
+</Mod>

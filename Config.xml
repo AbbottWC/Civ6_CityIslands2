@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<DomainRanges>
+		<Row Domain="IslandSpawnChance" MinimumValue="20" MaximumValue="100" />
+	</DomainRanges>
+	<Maps>
+		<Row File="City_Islands.lua" Name="City Islands" Description="Island Map where each fits max city growth." SortIndex="2" />
+		<Row Domain="Maps:Expansion1Maps" File="City_Islands.lua" Name="City Islands" Description="Island Map where each fits max city growth." SortIndex="2" />
+	</Maps>
+	<Parameters>
+		<Row
+			Key1="Map" Key2="City_Islands.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION"
+			Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230" />
+		<Row
+			Key1="Map" Key2="City_Islands.lua" ParameterId="Temperature" Name="LOC_MAP_TEMPERATURE_NAME" Description="LOC_MAP_TEMPERATURE_DESCRIPTION"
+			Domain="Temperature" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="temperature" GroupId="MapOptions" Hash="0" SortIndex="240" />
+		<Row
+			Key1="Map" Key2="City_Islands.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION"
+			Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250" />
+		<Row
+			Key1="Map" Key2="City_Islands.lua" ParameterId="StandardIsles" Name="Standard Islands"
+			Description="Larger islands with natural harbors on the western side." Domain="bool" DefaultValue="1"
+			ConfigurationGroup="Map" ConfigurationId="standard_islands" GroupId="MapOptions" SortIndex="350" />
+		<Row
+			Key1="Map" Key2="City_Islands.lua" ParameterId="SmallerIsles" Name="Smaller Islands"
+			Description="Smaller islands with more accessible coastal tiles." Domain="bool" DefaultValue="0"
+			ConfigurationGroup="Map" ConfigurationId="smaller_islands" GroupId="MapOptions" SortIndex="360" />
+		<Row
+			Key1="Map" Key2="City_Islands.lua" ParameterId="NarrowIsles" Name="Narrow Islands"
+			Description="As long as standard islands, but more narrow." Domain="bool" DefaultValue="0"
+			ConfigurationGroup="Map" ConfigurationId="narrow_islands" GroupId="MapOptions" SortIndex="370" />
+		<Row
+			Key1="Map" Key2="City_Islands.lua" ParameterId="ShortIsles" Name="Short Islands"
+			Description="As wide as standard islands, but shorter." Domain="bool" DefaultValue="0"
+			ConfigurationGroup="Map" ConfigurationId="short_islands" GroupId="MapOptions" SortIndex="380" />
+		<Row
+			Key1="Map" Key2="City_Islands.lua" ParameterId="GeminIsles" Name="Geminislands"
+			Description="Islands divided in two, adjoined by a land bridge." Domain="bool" DefaultValue="0"
+			ConfigurationGroup="Map" ConfigurationId="geminislands" GroupId="MapOptions" SortIndex="390" />
+		<Row
+			Key1="Map" Key2="City_Islands.lua" ParameterId="SpiralIsles" Name="Spiral Islands"
+			Description="Islands intertwined with a spiral of coastal tiles." Domain="bool" DefaultValue="0"
+			ConfigurationGroup="Map" ConfigurationId="spiral_islands" GroupId="MapOptions" SortIndex="400" />
+		<Row
+			Key1="Map" Key2="City_Islands.lua" ParameterId="IslandSpawnChance" Name="Island Spawn Change"
+			Description="Chance islands will spawn." ConfigurationGroup="Map" Domain="IslandSpawnChance"
+			DefaultValue="100" ConfigurationId="isle_spawn_chance" GroupId="MapOptions" SortIndex="410" />
+	</Parameters>
+	<MapSupportedValues>
+		<Row Map="City_Islands.lua" Domain="StandardMapSizes" Value="MAPSIZE_CI_DUEL" />
+		<Row Map="City_Islands.lua" Domain="StandardMapSizes" Value="MAPSIZE_CI_TINY" />
+		<Row Map="City_Islands.lua" Domain="StandardMapSizes" Value="MAPSIZE_CI_SMALL" />
+		<Row Map="City_Islands.lua" Domain="StandardMapSizes" Value="MAPSIZE_CI_STANDARD" />
+		<Row Map="City_Islands.lua" Domain="StandardMapSizes" Value="MAPSIZE_CI_LARGE" />
+		<Row Map="City_Islands.lua" Domain="StandardMapSizes" Value="MAPSIZE_CI_HUGE" />
+		<Row Map="City_Islands.lua" Domain="StandardMapSizes" Value="MAPSIZE_CI_ENORMOUS" />
+		<Row Map="City_Islands.lua" Domain="StandardMapSizes" Value="MAPSIZE_CI_GARGANTUAN" />
+	</MapSupportedValues>
+</GameInfo>

@@ -1,0 +1,38 @@
+<GameInfo>
+	<Maps>
+		<Row
+			MapSizeType="MAPSIZE_CI_DUEL" Name="Duel - City Islands" Description="32 Islands."
+			DefaultPlayers="2" GridWidth="64" GridHeight="33" NumNaturalWonders="4" PlateValue="3" Continents="1" />
+		<Row
+			MapSizeType="MAPSIZE_CI_TINY" Name="Tiny - City Islands" Description="45 Islands."
+			DefaultPlayers="4" GridWidth="72" GridHeight="41" NumNaturalWonders="8" PlateValue="3" Continents="2" />
+		<Row
+			MapSizeType="MAPSIZE_CI_SMALL" Name="Small - City Islands" Description="60 Islands."
+			DefaultPlayers="6" GridWidth="80" GridHeight="49" NumNaturalWonders="12" PlateValue="4" Continents="3" />
+		<Row
+			MapSizeType="MAPSIZE_CI_STANDARD" Name="Standard - City Islands" Description="77 Islands."
+			DefaultPlayers="8" GridWidth="88" GridHeight="57" NumNaturalWonders="16" PlateValue="4" Continents="4" />
+		<Row
+			MapSizeType="MAPSIZE_CI_LARGE" Name="Large - City Islands" Description="96 Islands."
+			DefaultPlayers="10" GridWidth="96" GridHeight="65" NumNaturalWonders="20" PlateValue="5" Continents="5" />
+		<Row
+			MapSizeType="MAPSIZE_CI_HUGE" Name="Huge - City Islands" Description="117 Islands."
+			DefaultPlayers="12" GridWidth="104" GridHeight="73" NumNaturalWonders="24" PlateValue="5" Continents="6" />
+		<Row
+			MapSizeType="MAPSIZE_CI_ENORMOUS" Name="Enormous - City Islands" Description="140 Islands"
+			DefaultPlayers="14" GridWidth="112" GridHeight="81" NumNaturalWonders="28" PlateValue="6" Continents="7" />
+		<Row
+			MapSizeType="MAPSIZE_CI_GARGANTUAN" Name="Gargantuan - City Islands" Description="192 Islands"
+			DefaultPlayers="16" GridWidth="128" GridHeight="97" NumNaturalWonders="31" PlateValue="6" Continents="8" />
+	</Maps>
+	<Map_GreatPersonClasses>
+		<Row MapSizeType="MAPSIZE_CI_DUEL" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" MaxWorldInstances="2"/>
+		<Row MapSizeType="MAPSIZE_CI_TINY" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" MaxWorldInstances="4"/>
+		<Row MapSizeType="MAPSIZE_CI_SMALL" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" MaxWorldInstances="6"/>
+		<Row MapSizeType="MAPSIZE_CI_STANDARD" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" MaxWorldInstances="8"/>
+		<Row MapSizeType="MAPSIZE_CI_LARGE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" MaxWorldInstances="10"/>
+		<Row MapSizeType="MAPSIZE_CI_HUGE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" MaxWorldInstances="12"/>
+		<Row MapSizeType="MAPSIZE_CI_ENORMOUS" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" MaxWorldInstances="14"/>
+		<Row MapSizeType="MAPSIZE_CI_GARGANTUAN" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" MaxWorldInstances="16"/>
+	</Map_GreatPersonClasses>
+</GameInfo>

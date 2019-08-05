@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="TECH_CI_EMBARKATION" Kind="KIND_TECH" />
+	</Types>
+	<Technologies>
+		<Row
+			TechnologyType="TECH_CI_EMBARKATION" Name="LOC_CI_EMBARKATION_NAME"
+			Description="LOC_TECH_CI_EMBARKATION_DESCRIPTION" Cost="0" UITreeRow="-3"
+			AdvisorType="ADVISOR_GENERIC" EmbarkAll="true" EraType="ERA_ANCIENT" />
+	</Technologies>
+	<TechnologyQuotes>
+		<Row TechnologyType="TECH_CI_EMBARKATION" Quote="LOC_CI_EMBARKATION_QUOTE" />
+	</TechnologyQuotes>
+</GameData>

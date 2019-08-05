@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconDefinitions>
+		<Row Name="ICON_TECH_CI_EMBARKATION" Index="3" Atlas="ICON_ATLAS_TECH"/>
+		<Row Name="ICON_TECH_CI_EMBARKATION_FOW" Index="3" Atlas="ICON_ATLAS_TECH_FOW"/>
+	</IconDefinitions>
+</GameData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BaseGameText>
+		<Row Tag="LOC_CI_EMBARKATION_QUOTE">
+			<Text>“It was only obvious.”[NEWLINE]- Unknown</Text>
+		</Row>
+	</BaseGameText>
+</GameData>
